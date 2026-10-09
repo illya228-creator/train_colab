@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.ruff_cache/
+
+# Secrets
+.env
+.env.*
+
+# Datasets and predictions
+data/raw/*
+data/processed/*
+data/predictions/*
+
+# Trained models
+models/*
+*.joblib
+*.pkl
+
+# Logs
+*.log
